@@ -2,8 +2,6 @@ import supabase from "../config.js";
 let productList = document.getElementById('products')
 
 
-
-
 async function renderProducts(params) {
     try {
         const { data, error } = await supabase

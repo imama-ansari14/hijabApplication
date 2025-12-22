@@ -1,8 +1,36 @@
-.productColor{
- width: 20px;
-height: 20px;
-background-color: blueviolet;
+/* Top Announcement Bar */
+.announcement-bar {
+  background-color: #f2ece9;
+  color: #000;
+  padding: 8px 0;
+  font-size: 14px;
 }
-.container{
-    background-color: #0000 ; 
+
+.announcement-bar a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.announcement-bar .carousel-control-prev,
+.announcement-bar .carousel-control-next {
+  width: 40px;
+  opacity: 1;
+}
+
+.announcement-bar .carousel-control-prev-icon,
+.announcement-bar .carousel-control-next-icon {
+  filter: invert(1);
+  width: 20px;
+  height: 20px;
+}
+
+/* Product  */
+.productColor {
+  width: 20px;
+  height: 20px;
+  background-color: blueviolet;
+}
+.container {
+  background-color: #0000;
 }
